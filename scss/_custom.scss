@@ -65,8 +65,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', end
 #header h1{
  	margin: 0;
 	text-align: center;
-	color: #000;
-	text-shadow: 1px 1px 1px #444;
+	color: #fff;
+	text-shadow: 1px 1px 0 #ccc,
+    	2px 2px 0 #999,
+    	3px 3px 0 #555;
 	font-weight: bold;
 	padding: 10px 0;
 }
